@@ -4,24 +4,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import utils
 matplotlib.use('Qt5Agg')
-# class Point:
-#     min_value = 0
-#     max_value = 1000
-#
-#     @classmethod
-#     def validate(cls, arg):
-#         return cls.min_value <= arg <= cls.max_value
-#
-#     def __init__(self, x, y):
-#         self.x = x
-#         self.y = y
-#
-#
-#
-#
-#
-# pt = Point(3,5)
-# print(Point.validate(5))
 
 images, labels = utils.load_dataset()
 
